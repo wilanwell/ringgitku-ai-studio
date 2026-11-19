@@ -8,7 +8,7 @@ Date: 19 November 2026 (Asia/Kuala_Lumpur).
 - The OCR model was changed from `gemini-4-hydrogen` to `gemini-3.5-flash-lite` and saved as a manual-edit checkpoint. The exported server was checked against that current checkpoint.
 - A built-in coffee-shop sample reached the actual review screen with total USD17.90, subtotal16.50, tax1.40 and three line items.
 - A synthetic Malaysian receipt returned Kopi Kita, 18 November 2026, MYR18.50, tax0, Cash and the expected two line items. Saving and reloading preserved that transaction.
-- On a connected Android phone, a physical receipt reached review after a retry. Its MYR27.75 total matched the original, and saving updated the dashboard. The physical receipt and raw phone recording are not included here.
+- On an Android phone, a physical receipt reached review after a retry. Its MYR27.75 total matched the original, and saving updated the dashboard. The physical receipt and raw phone recording are not included here.
 - A camera-preview failure recovered after closing excess tabs/refreshing. Its exact cause was not established; no camera-code fix is claimed for that incident.
 
 ## Repository checks

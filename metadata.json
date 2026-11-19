@@ -1,0 +1,6 @@
+{
+  "name": "RinggitKu",
+  "description": "Minimalist PWA for tracking daily expenses automatically by scanning receipts with AI OCR.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

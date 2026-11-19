@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="rk-bg" x1="64" y1="32" x2="448" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="rk-emerald" x1="234" y1="296" x2="376" y2="404" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <!-- App Icon Surface -->
+  <rect width="512" height="512" rx="116" fill="url(#rk-bg)"/>
+
+  <!-- Receipt-R Body (Serrated Paper Receipt forming the spine & bowl of R) -->
+  <path
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M142 132C142 120.954 150.954 112 162 112H272C319.496 112 358 150.504 358 198C358 245.496 319.496 284 272 284H218V398L199 380L180 398L161 380L142 398V132ZM218 168V228H272C288.569 228 302 214.569 302 198C302 181.431 288.569 168 272 168H218Z"
+    fill="#F8FAFC"
+  />
+
+  <!-- Emerald Scan-Leg (Diagonal ribbon completing the R with crisp negative-space cut) -->
+  <path
+    d="M239 305C235.5 299.8 239.2 293 245.5 293H302C306.8 293 311.3 295.3 314.2 299.1L376.5 383.5C381.4 390.1 376.7 398 368.5 398H313.5C308.6 398 304 395.6 301.2 391.7L239 305Z"
+    fill="url(#rk-emerald)"
+  />
+</svg>

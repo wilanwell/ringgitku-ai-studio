@@ -22,6 +22,18 @@ The PWA supports capturing receipts offline and queues extraction until connecti
 
 ![Reviewing a synthetic receipt after real Gemini extraction](docs/images/receipt-review-demo.jpg)
 
+## Mobile screenshots
+
+Responsive mobile layout captured in a desktop browser using a mobile-sized viewport. These screenshots use the saved synthetic Kopi Kita receipt (MYR18.50); they are not a new physical-device regression test.
+
+| Monthly overview | Saved receipt review |
+| --- | --- |
+| <img src="docs/images/mobile-overview.jpg" width="230" alt="Mobile overview showing one synthetic receipt totalling RM18.50"> | <img src="docs/images/mobile-receipt-review.jpg" width="230" alt="Mobile review showing the original synthetic Kopi Kita receipt"> |
+| **Editable details and line items** | **Export and photo retention** |
+| <img src="docs/images/mobile-review-details.jpg" width="230" alt="Mobile receipt details showing category, MYR18.50 total and two line items"> | <img src="docs/images/mobile-export.jpg" width="230" alt="Mobile export screen with CSV, PDF and photo-retention options"> |
+
+The [mobile scan screen](docs/images/mobile-scan.jpg) shows the image-upload and built-in sample options. The saved-receipt screenshots above reopen an existing record; no new OCR result was generated for these captures.
+
 ## Stack and design decisions
 
 | Area | Implementation |

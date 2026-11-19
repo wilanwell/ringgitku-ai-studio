@@ -21,6 +21,11 @@ Date: 19 November 2026 (Asia/Kuala_Lumpur).
 
 Live Gemini scans above were performed in AI Studio; no local Gemini API key was configured and no new Gemini request was made during repository preparation.
 
+## Mobile screenshot capture
+
+- Added five screenshots of the responsive UI using a mobile-sized desktop-browser viewport: overview, scanner, saved-receipt photo review, editable details and export.
+- Captures use the existing synthetic Kopi Kita transaction, MYR18.50. No new Gemini API request, expense save, export download or physical-phone regression test was performed for this documentation update.
+
 ## Not established
 
 - Full regression coverage across Android, iOS, browsers and installation modes.
